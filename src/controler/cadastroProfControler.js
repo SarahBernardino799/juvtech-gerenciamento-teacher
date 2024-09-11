@@ -71,12 +71,12 @@ const deleteProf = async (req, res) =>{
             }
         const {id} = req.params
         const deletedProf = await cadastroProfModel.findByIdAndDelete(id)
-        const message = `A Dança ${deletedProf.nome} foi deletada com sucesso.`
+        const message = `O Professor(a) ${deletedProf.nome} foi deletado com sucesso.`
         res.status(200).json({message})
         })
     } catch (error) {
         console.error(error)
-       res.status(500).json({message:"não foi possivel deletar a dança"}) 
+       res.status(500).json({message:"não foi possivel deletar o professor(a)"}) 
     
     }
 }
