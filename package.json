@@ -1,0 +1,36 @@
+{
+  "name": "juvtech-gerenciamento-teacher",
+  "version": "1.0.0",
+  "description": "com base nos requisitos criar um gerenciamento de alocação de professores.",
+  "main": "index.js",
+  "scripts": {
+   "test:watch":"jest --watchAll",
+    "test": "jest",
+    "start": "nodemon server.js",
+    "swagger-autogen": "node swagger.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SarahBernardino799/juvtech-gerenciamento-teacher.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.1",
+    "mongoose": "^6.7.1"
+  },
+  "devDependencies": {
+    "jest": "^29.6.1",
+    "nodemon": "^3.0.1"
+  },
+  "bugs": {
+    "url": "https://github.com/SarahBernardino799/juvtech-gerenciamento-teacher/issues"
+  },
+  "homepage": "https://github.com/SarahBernardino799/juvtech-gerenciamento-teacher#readme"
+}
+
+  

@@ -19,7 +19,7 @@ const cadastroProfSchrema = new mongoose.Schema(
         required: true,
     },
     turmas:{
-        type:String,
+        type: [String],
         required: true,
     },
     available: {
