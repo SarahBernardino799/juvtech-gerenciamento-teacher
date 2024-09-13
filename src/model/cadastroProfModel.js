@@ -41,5 +41,5 @@ const cadastroProfSchrema = new mongoose.Schema(
 {
     versionKey: false
 })
-const cadastro = mongoose.model("Cadastro", cadastroProfSchrema)
+const cadastro = mongoose.model("CadastroProfModel", cadastroProfSchrema)
 module.exports = cadastro

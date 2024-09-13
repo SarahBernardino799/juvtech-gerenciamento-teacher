@@ -18,5 +18,5 @@ const cadastroSchrema = new mongoose.Schema(
 {
     versionKey: false
 })
-const cadastro = mongoose.model("Cadastro", cadastroSchrema)
-module.exports = cadastro
+const cadastroadm = mongoose.model("Cadastro", cadastroSchrema)
+module.exports = cadastroadm
