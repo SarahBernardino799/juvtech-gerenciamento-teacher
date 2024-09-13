@@ -1,7 +1,7 @@
 const controler = require("../controler/cadastroProfControler");
 const express = require("express")
 
-const rotas = express.Rotas();
+const rotas = express.Router();
 
 rotas.get("/all", controler.findAllProf);
 rotas.get("/:id", controler.findProfById);
