@@ -11,7 +11,7 @@ const cadastroProfSchrema = new mongoose.Schema(
         required: true,
     },
     cadeiras:{
-        type: String,
+        type: [String],
         required: true,
     },
     disponibilidade:{
@@ -34,7 +34,6 @@ const cadastroProfSchrema = new mongoose.Schema(
     },
     cadastro: {
         type: mongoose.Schema.Types.ObjectId,
-        required: true,
         ref: "Cadastro"
     }
 },

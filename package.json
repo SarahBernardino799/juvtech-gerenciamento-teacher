@@ -4,10 +4,7 @@
   "description": "com base nos requisitos criar um gerenciamento de alocação de professores.",
   "main": "index.js",
   "scripts": {
-   "test:watch":"jest --watchAll",
-    "test": "jest",
-    "start": "nodemon server.js",
-    "swagger-autogen": "node swagger.js"
+    "start": "nodemon server.js"
   },
   "repository": {
     "type": "git",
